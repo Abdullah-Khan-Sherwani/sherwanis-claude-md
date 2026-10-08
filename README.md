@@ -1,11 +1,11 @@
 <div align="center">
 
-# 🧢 Sherwani's CLAUDE.md
+# Sherwani's CLAUDE.md
 
 **One small file that teaches your AI coding agent some manners.**
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#-come-build-this-with-me)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#come-build-this-with-me)
 [![Format: AGENTS.md](https://img.shields.io/badge/format-AGENTS.md%20%2B%20CLAUDE.md-informational.svg)](https://agents.md)
 [![GitHub stars](https://img.shields.io/github/stars/Abdullah-Khan-Sherwani/sherwanis-claude-md?logo=github)](https://github.com/Abdullah-Khan-Sherwani/sherwanis-claude-md/stargazers)
 
@@ -15,13 +15,13 @@
 
 ---
 
-## 👋 Hello!
+## Hello!
 
 Your coding agent is quick, cheerful and eager to please. It is also the colleague who "just tidied up" 40 files you never mentioned, pulled in a new dependency for a one-liner, and announced "all done!" without running anything.
 
-This file has a word with it. Drop it into your project and the agent asks when it's unsure, builds what you requested, leaves unrelated code alone, and proves the work before calling it finished. You review the change you asked for, and that's it.
+This file has a word with it. Drop it into your project and the agent asks when it's unsure, builds what you requested, leaves unrelated code alone, and proves the work before calling it finished. You review the change you asked for, and that's it. :)
 
-## 🎭 The usual suspects
+## The usual suspects
 
 Coding agents fail in predictable ways. Here's the lineup:
 
@@ -36,20 +36,20 @@ Coding agents fail in predictable ways. Here's the lineup:
 
 Each one gets a short, explicit rule.
 
-## 📜 The rules, at a glance
+## The rules, at a glance
 
 | Section | The gist |
 |---|---|
-| 🚦 **0. Project Status** | You say whether the project has real users. Pre-production: fix root causes properly and drop old shims. Production: small, backward-compatible, reversible changes, with anything risky flagged first. Unset: the agent asks. |
-| 🤔 **1. Think Before Coding** | State assumptions, lay out alternatives instead of picking silently, push back, and stop to ask when something is unclear. |
-| 🪜 **2. Simplicity First** | Climb a ladder before writing code. Does it need to exist? Is it already in the codebase? Does the standard library or the platform cover it? Is a dependency already installed? Only then write the minimum. |
-| 🔬 **3. Surgical Changes** | Every changed line traces back to the request. Match the existing style. Clean up only what your own change orphaned, and mention unrelated dead code instead of deleting it. |
-| 🎯 **4. Goal-Driven Execution** | Turn tasks into checkable goals: reproduce the bug with a test, then make it pass. Multi-step work gets a short plan with a verify step per item. |
-| 🧹 **5. Project Hygiene** | DRY and SOLID (simplicity wins ties), library-first, an `AGENTS.md` and `docs/` per folder, secrets only in environment variables, atomic commits. |
+| **0. Project Status** | You say whether the project has real users. Pre-production: fix root causes properly and drop old shims. Production: small, backward-compatible, reversible changes, with anything risky flagged first. Unset: the agent asks. |
+| **1. Think Before Coding** | State assumptions, lay out alternatives instead of picking silently, push back, and stop to ask when something is unclear. |
+| **2. Simplicity First** | Climb a ladder before writing code. Does it need to exist? Is it already in the codebase? Does the standard library or the platform cover it? Is a dependency already installed? Only then write the minimum. |
+| **3. Surgical Changes** | Every changed line traces back to the request. Match the existing style. Clean up only what your own change orphaned, and mention unrelated dead code instead of deleting it. |
+| **4. Goal-Driven Execution** | Turn tasks into checkable goals: reproduce the bug with a test, then make it pass. Multi-step work gets a short plan with a verify step per item. |
+| **5. Project Hygiene** | DRY and SOLID (simplicity wins ties), library-first, an `AGENTS.md` and `docs/` per folder, secrets only in environment variables, atomic commits. |
 
 The full text lives in [`AGENTS.md`](AGENTS.md). It takes about two minutes to read.
 
-## 🚀 Quick start
+## Quick start
 
 1. Copy [`AGENTS.md`](AGENTS.md) into the root of your project.
 2. Fill in section 0 (details just below).
@@ -67,7 +67,7 @@ That's the whole install. If you'd rather grab the file from the terminal:
 curl -O https://raw.githubusercontent.com/Abdullah-Khan-Sherwani/sherwanis-claude-md/main/AGENTS.md
 ```
 
-## 🚦 Section 0: tell the agent if you're in production
+## Section 0: tell the agent if you're in production
 
 > [!IMPORTANT]
 > This is the one setting worth your attention. It changes how the agent fixes things.
@@ -86,9 +86,9 @@ Replace `yes / no` with `yes` or `no`:
 | `yes` | Keeps changes backward compatible, prefers small reversible fixes, and warns you before anything that could break users or data. |
 | left as `yes / no` | It asks. It does not guess. |
 
-Leaving it unedited is safe, you'll just get asked. Set it once, and revisit it the day you launch. 🎉
+Leaving it unedited is safe, you'll just get asked. Set it once, and revisit it the day you launch.
 
-## 🔌 Works with
+## Works with
 
 | Tool | How to use it |
 |---|---|
@@ -96,13 +96,13 @@ Leaving it unedited is safe, you'll just get asked. Set it once, and revisit it 
 | Tools that read `AGENTS.md` natively | Copy `AGENTS.md` to the project root. The [agents.md](https://agents.md) site lists the format and supported tools. |
 | Tools with their own filename (for example `GEMINI.md`) | Copy or symlink `AGENTS.md` to that name, or point the tool's setting at it. |
 
-## 🎛️ Make it yours
+## Make it yours
 
 Add your stack, architecture and hard constraints under **Project-specific rules** at the bottom of `AGENTS.md`. Keep that part short. The file is loaded into the agent's context on every turn, so each extra line costs tokens and dilutes the rules around it.
 
 Section 5 asks for a scoped `AGENTS.md` in each folder. Scoped files add to the root file for their folder and never replace it.
 
-## 🤝 Come build this with me
+## Come build this with me
 
 This repo is small on purpose, which makes it a friendly place for a first open source contribution. There's no toolchain to set up and no test suite to wrestle. You need a text editor and an opinion about how agents should behave.
 
@@ -130,9 +130,9 @@ This repo is small on purpose, which makes it a friendly place for a first open 
 
 Everyone is still figuring out how to work with agents, so disagreement is welcome and rudeness isn't. Be kind, and we'll get along fine.
 
-Enjoying the file? A ⭐ helps other people find it.
+Enjoying the file? A star on the repo helps other people find it ;)
 
-## ❓ FAQ
+## FAQ
 
 **Will this slow the agent down on small tasks?**
 Hardly. The rules favor caution over speed, and the file says so. For trivial changes like a typo or an obvious one-liner, the agent is told to use judgment instead of running the full checklist.
@@ -146,7 +146,7 @@ Your direct instructions win, and scoped `AGENTS.md` files extend the root file 
 **Why is simplicity ranked above SOLID?**
 SOLID applied mechanically gives you interfaces with one implementation and layers nobody needs. Section 5 says simplicity wins ties.
 
-## 🙏 Credits
+## Credits
 
 Standing on friendly shoulders:
 
@@ -156,12 +156,12 @@ Standing on friendly shoulders:
 
 Full attribution and the upstream license text are in [NOTICE](NOTICE).
 
-## 📄 License
+## License
 
 [MIT](LICENSE) © 2026 Abdullah Khan Sherwani
 
 <div align="center">
 
-Happy shipping! 🚢
+Happy shipping! :D
 
 </div>
