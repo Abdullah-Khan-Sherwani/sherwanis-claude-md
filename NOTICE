@@ -1,0 +1,38 @@
+Sherwani's CLAUDE.md
+Copyright (c) 2026 Abdullah Khan Sherwani, MIT License (see LICENSE)
+
+This project builds on the work of others:
+
+1. andrej-karpathy-skills (https://github.com/multica-ai/andrej-karpathy-skills,
+   formerly forrestchang/andrej-karpathy-skills)
+   Sections 1-4 of AGENTS.md are adapted from its CLAUDE.md, which in turn
+   distills Andrej Karpathy's public observations on LLM coding pitfalls
+   (https://x.com/karpathy/status/2015883857489522876).
+   The upstream README declares the license as MIT. The repository ships no
+   LICENSE file and names no copyright holder, so none is reproduced here.
+
+2. Ponytail (https://github.com/DietrichGebert/ponytail)
+   The decision ladder in section 2 of AGENTS.md is inspired by Ponytail and
+   reworded. Ponytail is distributed under the following license:
+
+   MIT License
+
+   Copyright (c) 2026 DietrichGebert
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
